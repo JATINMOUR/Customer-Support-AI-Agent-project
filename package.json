@@ -1,0 +1,16 @@
+{
+  "name": "aster-row-support-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reliable support-agent exercise for Aster & Row",
+  "scripts": {
+    "test": "node --test",
+    "build:index": "node scripts/build-index.js",
+    "evaluate": "node scripts/evaluate.js",
+    "start": "node src/cli.js",
+    "start:debug": "node src/cli.js --debug"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
